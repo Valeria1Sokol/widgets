@@ -1,0 +1,121 @@
+.bookWidget {
+    width: 3.6vw;
+    height: 19.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00AD5C;
+    margin: 0 1vw 0 0;
+    float: left;
+}
+
+.bookWidget header {
+    width: 100%;
+}
+
+.bookWidget header img {
+    width: 100%;
+    margin: -0.3vw 0 0;
+}
+
+.bookWidget footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -7.3vw;
+}
+
+.bookWidget p {
+
+    color: white;
+    width: 16vw;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    font-family: open sans, sans-serif;
+    font-size: 1vw;
+    line-height: 20px;
+    font-weight: 700;
+
+}
+
+.requestWidget {
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    right: 0;
+}
+
+.requestWidget header {
+    display: flex;
+    flex-direction: column;
+}
+
+.requestWidget header img {
+    margin: 0;
+    width: 100%;
+    height: 4vw;
+}
+
+.adviceWidget {
+    background-color: #007942;
+    border-radius: 10px;
+    height: 15.5vw;
+    top: 20%;
+}
+
+.adviceWidget header img {
+    width: 3.8vw;
+    margin: -0vw -1px 0;
+
+}
+
+.adviceWidget footer {
+    top: -5.5vw;
+}
+
+@media all and (max-width:768px) {
+
+
+    .bookWidget footer {
+        top: -6.6vw;
+    }
+
+    .adviceWidget footer {
+        top: -5vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .requestWidget {
+        border-radius: 2px 0 0 2px;
+    }
+
+    .bookWidget p {
+        width: 13vw;
+    }
+
+    .bookWidget footer {
+        top: -5.8vw;
+    }
+
+    .adviceWidget footer {
+        top: -3.4vw;
+    }
+
+    .adviceWidget header img {
+        width: 3.6vw;
+        margin: -0vw 0px 0;
+    }
+ 
+}
+@media all and (max-width:320px)
+{
+       .adviceWidget header img {
+    width: 3.7vw;
+    margin: 0vw 0px 1px;
+}
+}
