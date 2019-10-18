@@ -114,37 +114,37 @@
 
 @media all and (max-width:425px) {
     .bookWidget {
-        width: 8vw;
-        height: 41.4vw;
+       width: 10vw;
+    height: 58.4vw;
     }
 
     .requestWidget header img {
-        height: 8.5vw;
+        height: 11.5vw;
     }
 
     .bookWidget p {
-        width: 28vw;
-        font-size: 2vw;
+       width: 40vw;
+    font-size: 3vw;
     }
     .bookWidget footer {
-    top: -13.8vw;
+    top: -21.8vw;
 }
 
 .bookWidget header img {
     width: 100%;
-    margin: -0.5vw 0 0;
+    margin: -0.6vw 0 0;
 }
     .adviceWidget footer {
-        top: -11.4vw;
+        top: -18.4vw;
     }
 
     .adviceWidget header img {
-        width: 8.6vw;
-        margin: -0vw -1px 0;
+        width: 10.6vw;
+        margin: -0.2vw -1px 0;
     }
     .adviceWidget
     {
-        height: 36.4vw;
+        height: 51.4vw;
     }
 
 
@@ -152,6 +152,6 @@
 
 @media all and (max-width:320px) {
     .adviceWidget header img {
-        width: 8.5vw;
+        width: 10.5vw;
     }
 }
