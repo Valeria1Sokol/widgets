@@ -61,21 +61,41 @@
 }
 
 .adviceWidget {
-    background-color: #007942;
+    background-image: url(Review-Solicitors-Widgets_Final_161019.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 10px;
-    height: 15.5vw;
-    top: 20%;
-}
-
-.adviceWidget header img {
-    width: 3.8vw;
-    margin: -0vw -1px 0;
-
+    height: 15.4vw;
+    width: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .adviceWidget footer {
-    top: -5.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    transform: rotate(-90deg);
+    position: relative;
 }
+
+.adviceWidget p {
+
+    color: white;
+    width: 16vw;
+    text-transform: uppercase;
+    margin: 0 3vw 0 0;
+    text-align: center;
+    font-family: open sans, sans-serif;
+    font-size: 1vw;
+    line-height: 20px;
+    font-weight: 700;
+
+}
+
 
 @media all and (max-width:768px) {
 
@@ -88,9 +108,6 @@
         top: -10.6vw;
     }
 
-    .adviceWidget footer {
-        top: -8vw;
-    }
 
     .bookWidget p {
         width: 20vw;
@@ -104,54 +121,64 @@
 
     .adviceWidget {
         height: 24.5vw;
-        border-radius: 20px;
+        width: 5.6vw;
     }
 
     .adviceWidget header img {
         width: 5.8vw;
     }
+
+    .adviceWidget p {
+        width: 20vw;
+        font-size: 1.5vw;
+        margin: 0 4vw 0 0;
+    }
+
 }
 
 @media all and (max-width:425px) {
     .bookWidget {
-       width: 10vw;
-    height: 58.4vw;
+        width: 10vw;
+        height: 50.4vw;
+    }
+
+    .bookWidget header img {
+        margin: -0.6vw 0 0;
     }
 
     .requestWidget header img {
         height: 11.5vw;
+        margin: 0;
     }
 
     .bookWidget p {
-       width: 40vw;
-    font-size: 3vw;
+        width: 40vw;
+        font-size: 2.4vw;
     }
-    .bookWidget footer {
-    top: -21.8vw;
-}
 
-.bookWidget header img {
-    width: 100%;
-    margin: -0.6vw 0 0;
-}
-    .adviceWidget footer {
-        top: -18.4vw;
+    .bookWidget footer {
+        top: -17.8vw;
     }
+
+
+
 
     .adviceWidget header img {
         width: 10.6vw;
         margin: -0.2vw -1px 0;
     }
-    .adviceWidget
-    {
+
+    .adviceWidget {
         height: 51.4vw;
+        width: 10vw;
+    }
+
+    .adviceWidget p {
+        width: 40vw;
+        font-size: 2.4vw;
+        margin: 0;
     }
 
 
 }
 
-@media all and (max-width:320px) {
-    .adviceWidget header img {
-        width: 10.5vw;
-    }
-}
